@@ -38,8 +38,7 @@ Typing such a long command is not convenient.
 Hence we recommend creating a symbolic link to the `julia` executable file in the `/usr/local/bin` folder:
 
 ```bash
-$ sudo mkdir /usr/local/bin
-$ sudo ln -fs /Applications/Julia-1.0.app/Contents/Resources/julia/bin/julia /usr/local/bin/julia
+$ sudo ln -s /Applications/Julia-1.0.app/Contents/Resources/julia/bin/julia /usr/local/bin/julia
 ```
 
 Note that on some macOS installations the folder `/usr/local/bin` does not exist by default and hence we create it.
